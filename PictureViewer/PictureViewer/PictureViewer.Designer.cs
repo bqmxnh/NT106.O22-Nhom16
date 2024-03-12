@@ -1,7 +1,7 @@
 ﻿
 namespace PictureViewer
 {
-    partial class Form1
+    partial class PictureViewer
     {
         /// <summary>
         /// Required designer variable.

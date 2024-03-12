@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PictureViewer
 {
-    public partial class Form1 : Form
+    public partial class PictureViewer : Form
     {
-        public Form1()
+        public PictureViewer()
         {
             InitializeComponent();
         }
