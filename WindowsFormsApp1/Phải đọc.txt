@@ -1,0 +1,14 @@
+﻿1. Calculator:
+- Tạo một form calculator giống với UI có sẵn trong file bài giảng.
+- Thực hiện được nhiều phép tính cùng một lúc, vd: a+b-c*d. Sau đó trả về một kết quả duy nhất
+- Không thay đổi kích thước của form vì gây lệch các nút, do đó được đặt Locked = True.
+- Chỉ dùng 2 event đơn giản là button_click và richtextbox_keydown để thực hiện các phép tính.
+- Sử dụng try catch để bắt lỗi khi người dùng nhập sai cú pháp.
+
+
+2. Windows Explorer like:
+- Khi thực hiện các thao tác thêm xóa sửa trong form cũng sẽ gây ảnh hưởng đến bộ nhớ của máy tính nên hãy cẩn thận.
+- Tạo một form giống với UI của Windows Explorer.
+- Có thể thực hiện các yêu cầu trong slide, tuy nhiên chưa test thử trường hợp file nặng.
+- Không dùng openfiledialog mà dùng webbrowser để mở file với link URL nên không dám chắc đảm bảo được yêu cầu trong slide.
+- Cũng có property Locked = true tránh trường hợp UI bị lệch.
