@@ -23,8 +23,13 @@ namespace Calculator
                 richTextBox1.Text = "";
                 flag = 0;
             }
-            richTextBox1.Text += (sender as Button).Text;
+
+            if (sender is Button button && button.Text != null)
+            {
+                richTextBox1.Text += button.Text;
+            }
         }
+
 
         private void button_clear(object sender, EventArgs e)
         {
