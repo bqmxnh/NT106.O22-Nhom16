@@ -15,9 +15,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Window_explorer : Form
+    public partial class FileExplorer : Form
     {
-        public Window_explorer()
+        public FileExplorer()
         {
             InitializeComponent();
         }

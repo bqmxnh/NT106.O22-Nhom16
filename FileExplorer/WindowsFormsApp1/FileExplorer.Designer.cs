@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Window_explorer
+    partial class FileExplorer
     {
         /// <summary>
         /// Required designer variable.
@@ -39,9 +39,10 @@
             // backbtn
             // 
             this.backbtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.backbtn.Location = new System.Drawing.Point(13, 12);
+            this.backbtn.Location = new System.Drawing.Point(15, 15);
+            this.backbtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(47, 23);
+            this.backbtn.Size = new System.Drawing.Size(53, 29);
             this.backbtn.TabIndex = 0;
             this.backbtn.Text = "<<";
             this.backbtn.UseVisualStyleBackColor = true;
@@ -50,9 +51,10 @@
             // forwardbtn
             // 
             this.forwardbtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.forwardbtn.Location = new System.Drawing.Point(66, 12);
+            this.forwardbtn.Location = new System.Drawing.Point(74, 15);
+            this.forwardbtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.forwardbtn.Name = "forwardbtn";
-            this.forwardbtn.Size = new System.Drawing.Size(47, 23);
+            this.forwardbtn.Size = new System.Drawing.Size(53, 29);
             this.forwardbtn.TabIndex = 0;
             this.forwardbtn.Text = ">>";
             this.forwardbtn.UseVisualStyleBackColor = true;
@@ -64,18 +66,19 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(119, 15);
+            this.label1.Location = new System.Drawing.Point(134, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 16);
+            this.label1.Size = new System.Drawing.Size(46, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Path:";
             // 
             // pathtxt
             // 
-            this.pathtxt.Location = new System.Drawing.Point(162, 13);
+            this.pathtxt.Location = new System.Drawing.Point(182, 16);
+            this.pathtxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pathtxt.Name = "pathtxt";
             this.pathtxt.ReadOnly = true;
-            this.pathtxt.Size = new System.Drawing.Size(704, 22);
+            this.pathtxt.Size = new System.Drawing.Size(792, 26);
             this.pathtxt.TabIndex = 2;
             this.pathtxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtboxkeydown);
             // 
@@ -83,9 +86,10 @@
             // 
             this.opentbtn.AutoSize = true;
             this.opentbtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.opentbtn.Location = new System.Drawing.Point(872, 10);
+            this.opentbtn.Location = new System.Drawing.Point(981, 12);
+            this.opentbtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.opentbtn.Name = "opentbtn";
-            this.opentbtn.Size = new System.Drawing.Size(50, 26);
+            this.opentbtn.Size = new System.Drawing.Size(58, 30);
             this.opentbtn.TabIndex = 0;
             this.opentbtn.Text = "Open";
             this.opentbtn.UseVisualStyleBackColor = true;
@@ -96,26 +100,28 @@
             this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.webBrowser1.Location = new System.Drawing.Point(13, 41);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Location = new System.Drawing.Point(15, 51);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(22, 25);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(909, 620);
+            this.webBrowser1.Size = new System.Drawing.Size(1023, 775);
             this.webBrowser1.TabIndex = 3;
             // 
-            // Window_explorer
+            // FileExplorer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(934, 673);
+            this.ClientSize = new System.Drawing.Size(1051, 841);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.pathtxt);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.opentbtn);
             this.Controls.Add(this.forwardbtn);
             this.Controls.Add(this.backbtn);
-            this.Name = "Window_explorer";
-            this.Text = "Form2";
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "FileExplorer";
+            this.Text = "File Explorer";
             this.ResumeLayout(false);
             this.PerformLayout();
 

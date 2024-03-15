@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Window_explorer.cs">
+    <Compile Include="FileExplorer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Window_explorer.Designer.cs">
-      <DependentUpon>Window_explorer.cs</DependentUpon>
+    <Compile Include="FileExplorer.Designer.cs">
+      <DependentUpon>FileExplorer.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Window_explorer.resx">
-      <DependentUpon>Window_explorer.cs</DependentUpon>
+    <EmbeddedResource Include="FileExplorer.resx">
+      <DependentUpon>FileExplorer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
