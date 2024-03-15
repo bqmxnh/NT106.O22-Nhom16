@@ -57,7 +57,6 @@ namespace Calculator
                 flag = 1;
             }
         }
-
         private void richTextBox1_keydown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
