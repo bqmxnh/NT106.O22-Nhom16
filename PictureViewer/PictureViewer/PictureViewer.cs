@@ -51,7 +51,6 @@ namespace PictureViewer
                 flowLayoutPanelThumbnails.Controls.Add(pictureBox); // Them hinh anh
             }
         }
-
         private void DisplayCurrentImage()
         {
             if (imageFiles != null && imageFiles.Count > 0)
